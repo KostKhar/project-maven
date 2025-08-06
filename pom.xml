@@ -51,9 +51,6 @@
             <resource>
                 <directory>target/dependency</directory>
                 <targetPath>lib</targetPath>
-                <includes>
-                    <include>**/*.jar</include>
-                </includes>
             </resource>
         </resources>
 
@@ -99,7 +96,7 @@
                             <mainClass>org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader</mainClass>
                         </manifest>
                         <manifestEntries>
-                            <Class-Path>./lib/</Class-Path> <!-- Путь к зависимостям -->
+                            <Class-Path>./</Class-Path> <!-- Путь к зависимостям -->
                             <Rsrc-Main-Class>com.javarush.games.racer.RacerGame</Rsrc-Main-Class>
                         </manifestEntries>
                     </archive>

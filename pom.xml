@@ -50,7 +50,7 @@
         <resources>
             <resource>
                 <directory>${project.build.directory}/dependency</directory>
-                <targetPath>target/libs</targetPath>
+                <targetPath>lib/</targetPath>
             </resource>
         </resources>
 
